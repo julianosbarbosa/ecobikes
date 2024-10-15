@@ -25,7 +25,7 @@ img {
 :root {
     --header-height: 4.5rem;
     /* colors */
-    --hue: 475;
+    --hue: 590;
     /* HSL color mode */
     --base-color: hsl(var(--hue) 36% 57%);
     --base-color-second: hsl(var(--hue) 65% 88%);
@@ -357,6 +357,10 @@ nav.show div.icon-close {
     text-align: center;
 }
 
+.card img{
+    width: 80px;
+    height: auto;
+}
 .card i {
     display: block;
     margin-bottom: 1.5rem;
@@ -364,14 +368,9 @@ nav.show div.icon-close {
     color: var(--base-color);
 }
 
-.card img{
-    width: 30%;
-    
-}
 .card .title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 0.75rem;
-    
 }
 
 
